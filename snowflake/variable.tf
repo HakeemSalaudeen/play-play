@@ -1,7 +1,7 @@
-# # variable "email" {
-# #   type      = string
-# #   sensitive = true
-# # }
+# variable "email" {
+#   type      = string
+#   sensitive = true
+# }
 
 # variable "login_name" {
 #   type      = string
@@ -37,3 +37,34 @@
 #   sensitive = true
 #    description = "Last name of the Atlantis user."
 # }
+
+
+variable "organization_name" {
+  type      = string
+  sensitive = true
+   description = "Name of the organization."
+}
+
+variable "account_name" {
+  type      = string
+  sensitive = true
+   description = "Name of the account."
+}
+
+variable "user" {
+  type      = string
+  sensitive = true
+   description = "Username for Snowflake authentication."
+}
+
+variable "cloud_password" {
+  type      = string
+  sensitive = true
+   description = "Password for Snowflake authentication."
+}
+
+variable "role" {
+  type      = string
+  sensitive = true
+   description = "Role for Snowflake authentication."
+}

@@ -1,2 +1,4 @@
 snowflake/.terraform
 snowflake/.terraform.lock.hcl
+snowflake/terraform.tfvars
+snowflake/terraform.tfvars

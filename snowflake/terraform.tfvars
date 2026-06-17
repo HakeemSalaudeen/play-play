@@ -3,3 +3,8 @@
 # first_name  = "Atlantis"
 # middle_name = "Cloud"
 # last_name   = "Deploy"
+organization_name = "NNILUCM"
+account_name      = "DQ86373"
+user              = "HAKEEMDEVV"
+cloud_password    = "BasicServerPassword1"
+role              = "SECURITYADMIN"
