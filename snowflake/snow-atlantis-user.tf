@@ -1,6 +1,6 @@
-# # resource "snowflake_atlantis" "minimal" {
-# #   name = "Snowflake atlantis - minimal"
-# # }
+resource "snowflake_user" "git-test" {
+  name = "Snowflake atlantis - git test"
+}
 
 
 # resource "snowflake_user" "atlantis" {
